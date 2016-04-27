@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Learning
+//  NavigationController
 //
 //  Created by 嶋本夏海 on 2016/04/27.
 //  Copyright © 2016年 嶋本夏海. All rights reserved.

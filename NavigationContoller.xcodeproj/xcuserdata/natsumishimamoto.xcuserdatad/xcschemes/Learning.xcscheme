@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DDB043091CD096FF00C6C39E"
-               BuildableName = "Learning.app"
-               BlueprintName = "Learning"
-               ReferencedContainer = "container:Learning.xcodeproj">
+               BuildableName = "NavigationContoller.app"
+               BlueprintName = "NavigationContoller"
+               ReferencedContainer = "container:NavigationContoller.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DDB0431D1CD096FF00C6C39E"
-               BuildableName = "LearningTests.xctest"
-               BlueprintName = "LearningTests"
-               ReferencedContainer = "container:Learning.xcodeproj">
+               BuildableName = "NavigationContoller.xctest"
+               BlueprintName = "NavigationContollerTests"
+               ReferencedContainer = "container:NavigationContoller.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DDB043281CD096FF00C6C39E"
-               BuildableName = "LearningUITests.xctest"
-               BlueprintName = "LearningUITests"
-               ReferencedContainer = "container:Learning.xcodeproj">
+               BuildableName = "NavigationContoller.xctest"
+               BlueprintName = "NavigationContollerUITests"
+               ReferencedContainer = "container:NavigationContoller.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DDB043091CD096FF00C6C39E"
-            BuildableName = "Learning.app"
-            BlueprintName = "Learning"
-            ReferencedContainer = "container:Learning.xcodeproj">
+            BuildableName = "NavigationContoller.app"
+            BlueprintName = "NavigationContoller"
+            ReferencedContainer = "container:NavigationContoller.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DDB043091CD096FF00C6C39E"
-            BuildableName = "Learning.app"
-            BlueprintName = "Learning"
-            ReferencedContainer = "container:Learning.xcodeproj">
+            BuildableName = "NavigationContoller.app"
+            BlueprintName = "NavigationContoller"
+            ReferencedContainer = "container:NavigationContoller.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DDB043091CD096FF00C6C39E"
-            BuildableName = "Learning.app"
-            BlueprintName = "Learning"
-            ReferencedContainer = "container:Learning.xcodeproj">
+            BuildableName = "NavigationContoller.app"
+            BlueprintName = "NavigationContoller"
+            ReferencedContainer = "container:NavigationContoller.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

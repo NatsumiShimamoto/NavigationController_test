@@ -14,6 +14,7 @@
 		DDB043181CD096FF00C6C39E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB043161CD096FF00C6C39E /* LaunchScreen.storyboard */; };
 		DDB043231CD096FF00C6C39E /* LearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB043221CD096FF00C6C39E /* LearningTests.swift */; };
 		DDB0432E1CD096FF00C6C39E /* LearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB0432D1CD096FF00C6C39E /* LearningUITests.swift */; };
+		DDB0433C1CD0ACAC00C6C39E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB0433B1CD0ACAC00C6C39E /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DDB0430A1CD096FF00C6C39E /* Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB0430A1CD096FF00C6C39E /* NavigationContoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationContoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB0430D1CD096FF00C6C39E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDB0430F1CD096FF00C6C39E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DDB043121CD096FF00C6C39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDB043141CD096FF00C6C39E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDB043171CD096FF00C6C39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDB043191CD096FF00C6C39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDB0431E1CD096FF00C6C39E /* LearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB0431E1CD096FF00C6C39E /* NavigationContoller.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationContoller.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB043221CD096FF00C6C39E /* LearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningTests.swift; sourceTree = "<group>"; };
 		DDB043241CD096FF00C6C39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDB043291CD096FF00C6C39E /* LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB043291CD096FF00C6C39E /* NavigationContoller.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationContoller.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB0432D1CD096FF00C6C39E /* LearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningUITests.swift; sourceTree = "<group>"; };
 		DDB0432F1CD096FF00C6C39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB0433B1CD0ACAC00C6C39E /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +79,9 @@
 		DDB043011CD096FE00C6C39E = {
 			isa = PBXGroup;
 			children = (
-				DDB0430C1CD096FF00C6C39E /* Learning */,
-				DDB043211CD096FF00C6C39E /* LearningTests */,
-				DDB0432C1CD096FF00C6C39E /* LearningUITests */,
+				DDB0430C1CD096FF00C6C39E /* NavigationController */,
+				DDB043211CD096FF00C6C39E /* NavigationControllerTests */,
+				DDB0432C1CD096FF00C6C39E /* NavigationControllerUITests */,
 				DDB0430B1CD096FF00C6C39E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,50 +89,54 @@
 		DDB0430B1CD096FF00C6C39E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDB0430A1CD096FF00C6C39E /* Learning.app */,
-				DDB0431E1CD096FF00C6C39E /* LearningTests.xctest */,
-				DDB043291CD096FF00C6C39E /* LearningUITests.xctest */,
+				DDB0430A1CD096FF00C6C39E /* NavigationContoller.app */,
+				DDB0431E1CD096FF00C6C39E /* NavigationContoller.xctest */,
+				DDB043291CD096FF00C6C39E /* NavigationContoller.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDB0430C1CD096FF00C6C39E /* Learning */ = {
+		DDB0430C1CD096FF00C6C39E /* NavigationController */ = {
 			isa = PBXGroup;
 			children = (
 				DDB0430D1CD096FF00C6C39E /* AppDelegate.swift */,
 				DDB0430F1CD096FF00C6C39E /* ViewController.swift */,
+				DDB0433B1CD0ACAC00C6C39E /* SecondViewController.swift */,
 				DDB043111CD096FF00C6C39E /* Main.storyboard */,
 				DDB043141CD096FF00C6C39E /* Assets.xcassets */,
 				DDB043161CD096FF00C6C39E /* LaunchScreen.storyboard */,
 				DDB043191CD096FF00C6C39E /* Info.plist */,
 			);
+			name = NavigationController;
 			path = Learning;
 			sourceTree = "<group>";
 		};
-		DDB043211CD096FF00C6C39E /* LearningTests */ = {
+		DDB043211CD096FF00C6C39E /* NavigationControllerTests */ = {
 			isa = PBXGroup;
 			children = (
 				DDB043221CD096FF00C6C39E /* LearningTests.swift */,
 				DDB043241CD096FF00C6C39E /* Info.plist */,
 			);
+			name = NavigationControllerTests;
 			path = LearningTests;
 			sourceTree = "<group>";
 		};
-		DDB0432C1CD096FF00C6C39E /* LearningUITests */ = {
+		DDB0432C1CD096FF00C6C39E /* NavigationControllerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				DDB0432D1CD096FF00C6C39E /* LearningUITests.swift */,
 				DDB0432F1CD096FF00C6C39E /* Info.plist */,
 			);
+			name = NavigationControllerUITests;
 			path = LearningUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DDB043091CD096FF00C6C39E /* Learning */ = {
+		DDB043091CD096FF00C6C39E /* NavigationContoller */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDB043321CD096FF00C6C39E /* Build configuration list for PBXNativeTarget "Learning" */;
+			buildConfigurationList = DDB043321CD096FF00C6C39E /* Build configuration list for PBXNativeTarget "NavigationContoller" */;
 			buildPhases = (
 				DDB043061CD096FF00C6C39E /* Sources */,
 				DDB043071CD096FF00C6C39E /* Frameworks */,
@@ -140,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = Learning;
+			name = NavigationContoller;
 			productName = Learning;
-			productReference = DDB0430A1CD096FF00C6C39E /* Learning.app */;
+			productReference = DDB0430A1CD096FF00C6C39E /* NavigationContoller.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DDB0431D1CD096FF00C6C39E /* LearningTests */ = {
+		DDB0431D1CD096FF00C6C39E /* NavigationContollerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDB043351CD096FF00C6C39E /* Build configuration list for PBXNativeTarget "LearningTests" */;
+			buildConfigurationList = DDB043351CD096FF00C6C39E /* Build configuration list for PBXNativeTarget "NavigationContollerTests" */;
 			buildPhases = (
 				DDB0431A1CD096FF00C6C39E /* Sources */,
 				DDB0431B1CD096FF00C6C39E /* Frameworks */,
@@ -158,14 +164,14 @@
 			dependencies = (
 				DDB043201CD096FF00C6C39E /* PBXTargetDependency */,
 			);
-			name = LearningTests;
+			name = NavigationContollerTests;
 			productName = LearningTests;
-			productReference = DDB0431E1CD096FF00C6C39E /* LearningTests.xctest */;
+			productReference = DDB0431E1CD096FF00C6C39E /* NavigationContoller.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DDB043281CD096FF00C6C39E /* LearningUITests */ = {
+		DDB043281CD096FF00C6C39E /* NavigationContollerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDB043381CD096FF00C6C39E /* Build configuration list for PBXNativeTarget "LearningUITests" */;
+			buildConfigurationList = DDB043381CD096FF00C6C39E /* Build configuration list for PBXNativeTarget "NavigationContollerUITests" */;
 			buildPhases = (
 				DDB043251CD096FF00C6C39E /* Sources */,
 				DDB043261CD096FF00C6C39E /* Frameworks */,
@@ -176,9 +182,9 @@
 			dependencies = (
 				DDB0432B1CD096FF00C6C39E /* PBXTargetDependency */,
 			);
-			name = LearningUITests;
+			name = NavigationContollerUITests;
 			productName = LearningUITests;
-			productReference = DDB043291CD096FF00C6C39E /* LearningUITests.xctest */;
+			productReference = DDB043291CD096FF00C6C39E /* NavigationContoller.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DDB043051CD096FE00C6C39E /* Build configuration list for PBXProject "Learning" */;
+			buildConfigurationList = DDB043051CD096FE00C6C39E /* Build configuration list for PBXProject "NavigationContoller" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DDB043091CD096FF00C6C39E /* Learning */,
-				DDB0431D1CD096FF00C6C39E /* LearningTests */,
-				DDB043281CD096FF00C6C39E /* LearningUITests */,
+				DDB043091CD096FF00C6C39E /* NavigationContoller */,
+				DDB0431D1CD096FF00C6C39E /* NavigationContollerTests */,
+				DDB043281CD096FF00C6C39E /* NavigationContollerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB0433C1CD0ACAC00C6C39E /* SecondViewController.swift in Sources */,
 				DDB043101CD096FF00C6C39E /* ViewController.swift in Sources */,
 				DDB0430E1CD096FF00C6C39E /* AppDelegate.swift in Sources */,
 			);
@@ -282,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		DDB043201CD096FF00C6C39E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DDB043091CD096FF00C6C39E /* Learning */;
+			target = DDB043091CD096FF00C6C39E /* NavigationContoller */;
 			targetProxy = DDB0431F1CD096FF00C6C39E /* PBXContainerItemProxy */;
 		};
 		DDB0432B1CD096FF00C6C39E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DDB043091CD096FF00C6C39E /* Learning */;
+			target = DDB043091CD096FF00C6C39E /* NavigationContoller */;
 			targetProxy = DDB0432A1CD096FF00C6C39E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,8 +408,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Learning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = a.Learning;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = NavigationController;
+				PRODUCT_NAME = NavigationContoller;
 			};
 			name = Debug;
 		};
@@ -412,8 +419,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Learning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = a.Learning;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = NavigationController;
+				PRODUCT_NAME = NavigationContoller;
 			};
 			name = Release;
 		};
@@ -424,8 +431,8 @@
 				INFOPLIST_FILE = LearningTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.LearningTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning.app/Learning";
+				PRODUCT_NAME = NavigationContoller;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationContoller.app/NavigationContoller";
 			};
 			name = Debug;
 		};
@@ -436,8 +443,8 @@
 				INFOPLIST_FILE = LearningTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.LearningTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning.app/Learning";
+				PRODUCT_NAME = NavigationContoller;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationContoller.app/NavigationContoller";
 			};
 			name = Release;
 		};
@@ -447,7 +454,7 @@
 				INFOPLIST_FILE = LearningUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.LearningUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NavigationContoller;
 				TEST_TARGET_NAME = Learning;
 			};
 			name = Debug;
@@ -458,7 +465,7 @@
 				INFOPLIST_FILE = LearningUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.LearningUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NavigationContoller;
 				TEST_TARGET_NAME = Learning;
 			};
 			name = Release;
@@ -466,7 +473,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DDB043051CD096FE00C6C39E /* Build configuration list for PBXProject "Learning" */ = {
+		DDB043051CD096FE00C6C39E /* Build configuration list for PBXProject "NavigationContoller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDB043301CD096FF00C6C39E /* Debug */,
@@ -475,29 +482,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDB043321CD096FF00C6C39E /* Build configuration list for PBXNativeTarget "Learning" */ = {
+		DDB043321CD096FF00C6C39E /* Build configuration list for PBXNativeTarget "NavigationContoller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDB043331CD096FF00C6C39E /* Debug */,
 				DDB043341CD096FF00C6C39E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		DDB043351CD096FF00C6C39E /* Build configuration list for PBXNativeTarget "LearningTests" */ = {
+		DDB043351CD096FF00C6C39E /* Build configuration list for PBXNativeTarget "NavigationContollerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDB043361CD096FF00C6C39E /* Debug */,
 				DDB043371CD096FF00C6C39E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		DDB043381CD096FF00C6C39E /* Build configuration list for PBXNativeTarget "LearningUITests" */ = {
+		DDB043381CD096FF00C6C39E /* Build configuration list for PBXNativeTarget "NavigationContollerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDB043391CD096FF00C6C39E /* Debug */,
 				DDB0433A1CD096FF00C6C39E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
